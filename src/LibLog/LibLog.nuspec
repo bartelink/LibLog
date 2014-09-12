@@ -5,12 +5,12 @@
         <version>1.0.0-alpha4</version>
         <authors>Damian Hickey</authors>
         <owners>Damian Hickey</owners>
-        <licenseUrl>https://github.com/damianh/DH.Logging/blob/master/licence.txt</licenseUrl>
+        <licenseUrl>https://github.com/damianh/LibLog/blob/master/licence.txt</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <developmentDependency>true</developmentDependency>
         <description>If you are a library or framework author and you wish to provid logging support to your component there are a couple of options 1) Depend on Log4Net/NLog 2) Depend on Common.Logging 3) Implement your own ILog interface and make your consumers wire it up.
 
-Option 1 is not desirable because it forces your users to use a particular framework. Option 2 is not desirable because it will add yet more nuger package dependencies and project references with associated versioning concerns and requires wiring up with. Option 3 is desirable because it is dependency free but requires that your users to remember to write an adapter and wire things up.
+Option 1 is not desirable because it forces your users to use a particular framework. Option 2 is not desirable because it will add yet more NuGet package dependencies and project references with associated versioning concerns and requires wiring up with. Option 3 is desirable because it is dependency free but requires that your users to remember to write an adapter and wire things up.
 
 This package is a version of option 3:
 - It will add an ILog, ILogProvider etc to YourRootNamespace.Logging
